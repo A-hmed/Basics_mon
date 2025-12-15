@@ -17,17 +17,13 @@ class XoButton extends StatelessWidget {
     }
     
     return Expanded(
-      child: Container(
-        color: Colors.transparent,
-        margin: EdgeInsets.all(8),
-        child: InkWell(
-          onTap: (){
-            onClick(index);
-          },
-          child: symbol.isEmpty
-              ? Container()
-              : Image.asset( image),
-        ),
+      child: InkWell(
+        onTap: (){
+          onClick(index);
+        },
+        child: symbol.isEmpty
+            ? Container()
+            : Image.asset( image),
       ),
     );
   }
