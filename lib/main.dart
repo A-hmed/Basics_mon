@@ -5,7 +5,7 @@ import 'package:flutter_basics_c17/ui/screens/xo_intro/xo_intro.dart';
 /// Git commands:
 /// init: Create empty repository
 /// add
-/// commit
+/// commit: Save changes for added files in git with commit message
 /// branch
 /// merge
 /// rebase
@@ -41,3 +41,11 @@ class MyApp extends StatelessWidget {
 
 
 }
+
+
+
+
+
+
+
+
