@@ -1,10 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_basics_c17/ui/utils/app_assets.dart';
-
-
-
-
-
 class XoButton extends StatelessWidget {
   final String symbol;
   final Function onClick;
@@ -21,14 +16,17 @@ class XoButton extends StatelessWidget {
       image = AppAssets.icO;
     }
     
-    return Expanded(
-      child: InkWell(
-        onTap: (){
-          onClick(index);
-        },
-        child: symbol.isEmpty
-            ? Container()
-            : Image.asset( image),
+    return Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: Expanded(
+        child: InkWell(
+          onTap: (){
+            onClick(index);
+          },
+          child: symbol.isEmpty
+              ? Container(height: 20, width: 20,)
+              : Image.asset( image),
+        ),
       ),
     );
   }
