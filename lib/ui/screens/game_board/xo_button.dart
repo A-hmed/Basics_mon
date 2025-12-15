@@ -1,10 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_basics_c17/ui/utils/app_assets.dart';
-
-
-
-
-
 class XoButton extends StatelessWidget {
   final String symbol;
   final Function onClick;
