@@ -18,10 +18,9 @@ import 'package:flutter_basics_c17/ui/screens/xo_intro/xo_intro.dart';
 /// pull
 /// push
 /// clone
-
+///Merge request
 void main() {
   runApp(const MyApp());
-  Container(child: Text(""));
 }
 
 class MyApp extends StatelessWidget {
@@ -29,7 +28,7 @@ class MyApp extends StatelessWidget {
 
 
   @override
-  Widget build(BuildContext xasdasdasd) {
+  Widget build(BuildContext context) {
     return MaterialApp(
       routes: {
         GameBoard.routeName: (_) => GameBoard(),
