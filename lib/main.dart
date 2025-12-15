@@ -7,6 +7,7 @@ import 'package:flutter_basics_c17/ui/screens/xo_intro/xo_intro.dart';
 /// add
 /// commit: Save changes for added files in git with commit message
 /// branch
+/// switch(checkout)
 /// merge
 /// rebase
 /// reset
